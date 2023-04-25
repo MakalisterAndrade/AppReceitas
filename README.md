@@ -1,6 +1,6 @@
 # app_receitas
 
-A new Flutter project.
+App de receitas feito em Flutter.
 
 ## Getting Started
 
