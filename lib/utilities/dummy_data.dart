@@ -4,37 +4,37 @@ import '../models/recipe.dart';
 const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
-    title: 'Breakfast',
+    title: 'Café da manhã',
     imagePath: 'assets/images/Breakfast.png',
   ),
   Category(
     id: 'c2',
-    title: 'Lunch',
+    title: 'Almoço',
     imagePath: 'assets/images/Lunch.png',
   ),
   Category(
     id: 'c3',
-    title: 'Beverages',
+    title: 'Bebidas',
     imagePath: 'assets/images/Beverages.png',
   ),
   Category(
     id: 'c4',
-    title: 'Soups',
+    title: 'Sopas',
     imagePath: 'assets/images/Soups.png',
   ),
   Category(
     id: 'c5',
-    title: 'Salads',
+    title: 'Saladas',
     imagePath: 'assets/images/Salads.png',
   ),
   Category(
     id: 'c6',
-    title: 'Desserts',
+    title: 'Sobremesas',
     imagePath: 'assets/images/Desserts.png',
   ),
   Category(
     id: 'c7',
-    title: 'Breads',
+    title: 'Pães',
     imagePath: 'assets/images/Breads.png',
   ),
 ];
@@ -43,7 +43,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm1',
     recipeCategoryId: 'c1',
-    recipeCategoryTitle: 'Breakfast',
+    recipeCategoryTitle: 'Café da manhã',
     title: 'Scrambled Eggs with Herbs',
     duration: '25',
     servings: '4',
@@ -68,7 +68,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm2',
     recipeCategoryId: 'c6',
-    recipeCategoryTitle: 'Desserts',
+    recipeCategoryTitle: 'Sobremesas',
     title: 'Chocolate Fondue',
     duration: '17',
     servings: '5',
@@ -94,7 +94,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm3',
     recipeCategoryId: 'c5',
-    recipeCategoryTitle: 'Salads',
+    recipeCategoryTitle: 'Saladas',
     title: 'Caesar Salad',
     duration: '20',
     servings: '2',
@@ -129,7 +129,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm4',
     recipeCategoryId: 'c5',
-    recipeCategoryTitle: 'Salads',
+    recipeCategoryTitle: 'Saladas',
     title: 'Carrot Salad',
     duration: '13',
     servings: '5',
@@ -155,7 +155,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm5',
     recipeCategoryId: 'c2',
-    recipeCategoryTitle: 'Lunch',
+    recipeCategoryTitle: 'Almoço',
     title: 'Garlic-Roasted Chicken',
     duration: '30',
     servings: '4',
@@ -182,7 +182,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm6',
     recipeCategoryId: 'c3',
-    recipeCategoryTitle: 'Beverages',
+    recipeCategoryTitle: 'Bebidas',
     title: 'Cherry Slushy',
     duration: '5',
     servings: '2',
@@ -203,7 +203,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm7',
     recipeCategoryId: 'c3',
-    recipeCategoryTitle: 'Beverages',
+    recipeCategoryTitle: 'Bebidas',
     title: 'Chocolate-Lover\'s Milkshake',
     duration: '5',
     servings: '1',
@@ -228,7 +228,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm8',
     recipeCategoryId: 'c4',
-    recipeCategoryTitle: 'Soups',
+    recipeCategoryTitle: 'Sopas',
     title: 'Chicken Soup',
     duration: '55',
     servings: '4',
@@ -257,7 +257,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm9',
     recipeCategoryId: 'c7',
-    recipeCategoryTitle: 'Breads',
+    recipeCategoryTitle: 'Pães',
     title: 'White Sandwich Bread',
     duration: '260',
     servings: '2',
@@ -283,7 +283,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm10',
     recipeCategoryId: 'c1',
-    recipeCategoryTitle: 'Breakfast',
+    recipeCategoryTitle: 'Café da manhã',
     title: 'Ham and Cheese Breakfast Tortillas',
     duration: '30',
     servings: '4',
@@ -309,7 +309,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm11',
     recipeCategoryId: 'c1',
-    recipeCategoryTitle: 'Breakfast',
+    recipeCategoryTitle: 'Café da manhã',
     title: 'Bacon and Egg Tacos',
     duration: '8',
     servings: '6',
@@ -337,7 +337,7 @@ const DUMMY_RECIPES = const [
   Recipe(
     id: 'm12',
     recipeCategoryId: 'c1',
-    recipeCategoryTitle: 'Breakfast',
+    recipeCategoryTitle: 'Café da manhã',
     title: 'Pumpkin Pancakes',
     duration: '40',
     servings: '6',
