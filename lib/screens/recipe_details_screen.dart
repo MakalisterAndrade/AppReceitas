@@ -81,7 +81,7 @@ class RecipeDetailsScreen extends StatelessWidget {
                             color: Colors.black54,
                           ),
                           onTap: () {
-                            print('My fav');
+                            print('Favorito');
                           },
                         ),
                       ],
@@ -94,18 +94,18 @@ class RecipeDetailsScreen extends StatelessWidget {
                       children: [
                         IconText(
                           icon: Icons.access_time,
-                          text: '${_selectedRecipe.duration} mins',
+                          text: '${_selectedRecipe.duration} minutos',
                         ),
                         IconText(
                           icon:
-                              _selectedRecipe.recipeCategoryTitle == 'Beverages'
+                              _selectedRecipe.recipeCategoryTitle == 'Bebidas'
                                   ? Icons.local_bar
                                   : Icons.room_service,
-                          text: '${_selectedRecipe.servings} servings',
+                          text: '${_selectedRecipe.servings} porções',
                         ),
                         IconText(
                           icon: Icons.whatshot,
-                          text: '${_selectedRecipe.calories} calories',
+                          text: '${_selectedRecipe.calories} calorias',
                         ),
                       ],
                     ),
@@ -117,11 +117,11 @@ class RecipeDetailsScreen extends StatelessWidget {
                       color: Colors.black54,
                     ),
                     RecipeDetails(
-                      title: 'Ingredients',
+                      title: 'Ingredientes',
                       recipeInfo: _selectedRecipe.ingredients,
                     ),
                     RecipeDetails(
-                      title: 'Cooking Instructions',
+                      title: 'Passo a passo',
                       recipeInfo: _selectedRecipe.instructions,
                     )
                   ],
