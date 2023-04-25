@@ -1,6 +1,6 @@
 {
-    "name": "appreceitas",
-    "short_name": "appreceitas",
+    "name": "app_receitas",
+    "short_name": "app_receitas",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
