@@ -49,7 +49,7 @@ class RecipeDetails extends StatelessWidget {
                       left: 15.0,
                       right: 15.0,
                     ),
-                    leading: title == 'Ingredients'
+                    leading: title == 'Ingredientes'
                         ? CircleAvatar(
                             radius: 10.0,
                             backgroundColor: Colors.orange,
@@ -60,7 +60,7 @@ class RecipeDetails extends StatelessWidget {
                             ),
                           )
                         : Text(
-                            'Step ${index + 1}',
+                            'Passo ${index + 1}',
                             style: TextStyle(
                               color: Colors.orange,
                               fontWeight: FontWeight.bold,
@@ -73,7 +73,7 @@ class RecipeDetails extends StatelessWidget {
                       ),
                     ),
                   ),
-                  title != 'Cooking Instructions'
+                  title != 'Passo a passo'
                       ? Container()
                       : recipeInfo.length - 1 == index
                           ? Container()
