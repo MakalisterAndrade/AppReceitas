@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-
 import '../utilities/constants.dart';
 
 class RecipeDetails extends StatelessWidget {
   final String title;
   final List<String> recipeInfo;
 
-  RecipeDetails({
+  const RecipeDetails({
+    super.key,
     required this.title,
     required this.recipeInfo,
   });
@@ -17,7 +17,7 @@ class RecipeDetails extends StatelessWidget {
       children: [
         Container(
           alignment: Alignment.center,
-          margin: EdgeInsets.only(
+          margin: const EdgeInsets.only(
             top: 5.0,
             bottom: 15.0,
           ),
@@ -77,7 +77,7 @@ class RecipeDetails extends StatelessWidget {
                       ? Container()
                       : recipeInfo.length - 1 == index
                           ? Container()
-                          : Divider(
+                          : const Divider(
                               thickness: 0.2,
                               color: Colors.black54,
                               indent: 15.0,

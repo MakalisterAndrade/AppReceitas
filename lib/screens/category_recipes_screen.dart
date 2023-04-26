@@ -27,7 +27,7 @@ class CategoryRecipesScreen extends StatelessWidget {
           children: [
             CustomBackButton(),
             SizedBox(
-              width: 15.0,
+              width: 10.0,
             ),
             Text(
               _categoryTitle!,
@@ -51,9 +51,9 @@ class CategoryRecipesScreen extends StatelessWidget {
               shrinkWrap: true,
               physics: NeverScrollableScrollPhysics(),
               gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-                maxCrossAxisExtent: 200.0,
+                maxCrossAxisExtent: 150.0,
                 childAspectRatio: 2 / 2.9,
-                mainAxisSpacing: 10.0,
+                mainAxisSpacing: 8.0,
               ),
               itemBuilder: (context, index) {
                 return RecipeItem(

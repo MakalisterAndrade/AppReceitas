@@ -1,5 +1,6 @@
+import 'package:app_receitas/screens/category_recipes_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:meal/utilities/dummy_data.dart';
+import '../utilities/dummy_data.dart';
 
 import '../utilities/constants.dart';
 import '../widgets/category_item.dart';
@@ -40,27 +41,29 @@ class HomeScreen extends StatelessWidget {
                           width: 10.0,
                         ),
                         Text(
-                          'Hi, Bavly',
+                          'Olá, Maka',
                           style: kSmallTitleTextStyle,
                         ),
                       ],
                     ),
-                    InkWell(
-                      child: Padding(
-                        padding: const EdgeInsets.only(
-                          right: 10.0,
-                        ),
-                        child: Icon(
-                          Icons.search,
-                          color: Colors.black54,
-                        ),
-                      ),
-                      onTap: () {
-                        print('Search');
-                      },
-                    ),
                   ],
                 ),
+                PopupMenuButton(
+                    padding: const EdgeInsets.only(right: 10, top: 1),
+                    itemBuilder: (context) => [
+                          PopupMenuItem(
+                              child: Text('Bebidas'),
+                              onTap: () async {
+                                final navigator = Navigator.of(context);
+                                await Future.delayed(Duration.zero);
+                                navigator.push(MaterialPageRoute(
+                                    builder: (_) => CategoryItem(
+                                        id: 'c3',
+                                        title: 'Bebidas',
+                                        imagePath:
+                                            'assets/images/Beverages.png')));
+                              })
+                        ]),
                 SizedBox(
                   height: 30.0,
                 ),
@@ -94,7 +97,7 @@ class HomeScreen extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(left: 10.0),
                   child: Text(
-                    'Top Recipes',
+                    'Receitas mais vistas',
                     style: kBigTitleTextStyle,
                   ),
                 ),
