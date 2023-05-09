@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../utilities/dummy_data.dart';
@@ -142,7 +141,7 @@ class RecipeDetailsScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         ElevatedButton.icon(
-                            icon: const Icon(FontAwesome.youtube,
+                            icon: const Icon(Icons.youtube_searched_for,
                                 color: Colors.red),
                             label: const Text(
                                 'Clique aqui para videos sobre a receita'),
