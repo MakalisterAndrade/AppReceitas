@@ -17,7 +17,7 @@ void main() {
               },
               debugShowCheckedModeBanner: false,
               theme: ThemeData(
-                  colorSchemeSeed: Colors.deepOrangeAccent, useMaterial3: true),
+                  colorSchemeSeed: Colors.deepPurpleAccent, useMaterial3: true),
               initialRoute: HomeScreen.routePath,
               routes: {
                 HomeScreen.routePath: (context) => HomeScreen(),

@@ -145,7 +145,9 @@ class RecipeDetailsScreen extends StatelessWidget {
                                 color: Colors.red),
                             label: const Text(
                                 'Clique aqui para videos sobre a receita'),
-                            onPressed: () => launchYoutube(
+                            onPressed: () =>
+                            final Uri launchvideo = Uri(), 
+                            launchYoutube(
                                 'https://www.youtube.com/results?search_query=${selectedRecipe.title}'
                                     as Uri))
                       ],

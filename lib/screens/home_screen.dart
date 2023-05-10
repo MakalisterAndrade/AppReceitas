@@ -12,14 +12,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('Pacotes'), actions: [
+        appBar: AppBar(title: const Text('AppReceitas'), actions: [
           PopupMenuButton(
-              tooltip: 'AppReceitas',
-              onSelected: (String value) {
-                Navigator.of(context).pushNamed(
-                  'category-recipes/$value',
-                );
-              },
+              onSelected: (String value) {},
               itemBuilder: (BuildContext context) {
                 return const [
                   PopupMenuItem(value: 'c1', child: Text('Café da manhã')),
@@ -71,7 +66,7 @@ class HomeScreen extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(left: 10.0),
                     child: Text(
-                      'Categories',
+                      'Categorias',
                       style: kBigTitleTextStyle,
                     ),
                   ),
