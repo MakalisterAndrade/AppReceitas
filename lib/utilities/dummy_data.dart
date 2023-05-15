@@ -47,6 +47,8 @@ const DUMMY_RECIPES = const [
     title: 'Ovos Mexidos',
     duration: '25',
     servings: '4',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+ovos+mexidos',
     calories: '592',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/13/0/FN_Scrambled-Eggs-with-Herbs_s4x3.jpg.rend.hgtvcom.966.725.suffix/1387411745857.jpeg',
@@ -72,6 +74,8 @@ const DUMMY_RECIPES = const [
     title: 'Fondue de Chocolate',
     duration: '17',
     servings: '5',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Fondue de Chocolate',
     calories: '781',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/6/12/2/MO1A04_25347_s4x3.jpg.rend.hgtvcom.966.725.suffix/1431770133861.jpeg',
@@ -99,6 +103,8 @@ const DUMMY_RECIPES = const [
     duration: '20',
     servings: '2',
     calories: '144',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Salada César',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/4/4/0/WU0212_Caesar-Salad-With-Croutons_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371607142173.jpeg',
     ingredients: [
@@ -134,6 +140,8 @@ const DUMMY_RECIPES = const [
     duration: '13',
     servings: '5',
     calories: '168',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Salada de cenoura',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/8/10/0/Thanksgiving-2011_GL0611-carrot-salad_s4x3.jpg.rend.hgtvcom.826.620.suffix/1386281489379.jpeg',
     ingredients: [
@@ -160,6 +168,8 @@ const DUMMY_RECIPES = const [
     duration: '30',
     servings: '4',
     calories: '466',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Garlic-Roasted Chicken',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/1/21/1/FNM_030110-Weeknight-026_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371591017679.jpeg',
     ingredients: [
@@ -187,6 +197,8 @@ const DUMMY_RECIPES = const [
     duration: '5',
     servings: '2',
     calories: '190',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Cherry Slushy',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/6/18/0/KC2109_Cherry-Slushie_s4x3.jpg.rend.hgtvcom.826.620.suffix/1560899430752.jpeg',
     ingredients: [
@@ -207,6 +219,8 @@ const DUMMY_RECIPES = const [
     title: 'Chocolate-Lover\'s Milkshake',
     duration: '5',
     servings: '1',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Chocolate-Lover\'s Milkshake',
     calories: '270',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/4/2/FNK_turtle-brownie-milkshake-recipe-02_s4x3.jpg.rend.hgtvcom.826.620.suffix/1378417207902.jpeg',
@@ -233,6 +247,8 @@ const DUMMY_RECIPES = const [
     duration: '55',
     servings: '4',
     calories: '157',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Chicken Soup',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/7/17/1/FN_Simple-Chicken-Soup_s4x3.jpg.rend.hgtvcom.826.620.suffix/1408067446307.jpeg',
     ingredients: [
@@ -262,6 +278,8 @@ const DUMMY_RECIPES = const [
     duration: '260',
     servings: '2',
     calories: '124',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+White Sandwich Bread',
     imagePath:
         'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/2/26/1/WU1303H_White-Sandwich-Bread_s4x3.jpg.rend.hgtvcom.826.620.suffix/1459542226650.jpeg',
     ingredients: [
@@ -287,6 +305,8 @@ const DUMMY_RECIPES = const [
     title: 'Presunto e queijo Tortillas',
     duration: '30',
     servings: '4',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Presunto e queijo Tortillas',
     calories: '627',
     imagePath:
         'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2F6dda41965439b3e4cc1054144587ba73%2F5319577.jpg&w=595&h=595&c=sc&poi=face&q=60',
@@ -314,6 +334,8 @@ const DUMMY_RECIPES = const [
     duration: '8',
     servings: '6',
     calories: '436',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Bacon e Ovos Tacos',
     imagePath:
         'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2Fb07cf90ca4dd9d92f69eb352fe59add4%2F4484963.jpg&w=596&h=596&c=sc&poi=face&q=60',
     ingredients: [
@@ -342,6 +364,8 @@ const DUMMY_RECIPES = const [
     duration: '40',
     servings: '6',
     calories: '278',
+    urlVideo:
+        'https://www.youtube.com/results?search_query=receita+Panquecas de abóbora',
     imagePath:
         'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9405605.jpg&w=595&h=791&c=sc&poi=face&q=60',
     ingredients: [

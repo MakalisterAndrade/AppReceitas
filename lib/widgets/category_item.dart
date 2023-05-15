@@ -22,7 +22,7 @@ class CategoryItem extends StatelessWidget {
       ),
       child: Column(
         children: [
-          Container(
+          SizedBox(
             height: 70.0,
             width: 70.0,
             child: Card(

@@ -9,6 +9,7 @@ class Recipe {
   final String servings;
   final String calories;
   final String imagePath;
+  final String urlVideo;
   final List<String> ingredients;
   final List<String> instructions;
   final List<String> nutritions;
@@ -25,5 +26,6 @@ class Recipe {
     required this.ingredients,
     required this.instructions,
     required this.nutritions,
+    required this.urlVideo,
   });
 }

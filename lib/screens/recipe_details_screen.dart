@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'package:app_receitas/utilities/launch.dart';
 import '../utilities/dummy_data.dart';
 import '../utilities/constants.dart';
 import '../widgets/custom_back_button.dart';
@@ -16,15 +17,12 @@ class RecipeDetailsScreen extends StatelessWidget {
     final selectedRecipe =
         DUMMY_RECIPES.firstWhere((recipe) => recipe.id == recipeId);
 
-    Future<void> launchYoutube(Uri url) async {
-      if (!await launchUrl(
-        url,
-        mode: LaunchMode.inAppWebView,
-        webViewConfiguration: const WebViewConfiguration(
-            headers: <String, String>{'my_header_key': 'my_header_value'}),
-      )) {
+    Future<void> launchYoutube() async {
+      final url = selectedRecipe.urlVideo;
+      if (await canLaunchUrl(Uri.parse(url))) {
+        await launchUrl(Uri.parse(url));
       } else {
-        throw Exception('Não pode executar o link $url');
+        throw 'Could not launch $url';
       }
     }
 
@@ -145,11 +143,9 @@ class RecipeDetailsScreen extends StatelessWidget {
                                 color: Colors.red),
                             label: const Text(
                                 'Clique aqui para videos sobre a receita'),
-                            onPressed: () =>
-                            final Uri launchvideo = Uri(), 
-                            launchYoutube(
-                                'https://www.youtube.com/results?search_query=${selectedRecipe.title}'
-                                    as Uri))
+                            onPressed: () {
+                              launchYoutube();
+                            })
                       ],
                     ),
                   ),

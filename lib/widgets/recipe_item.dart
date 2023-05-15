@@ -22,8 +22,8 @@ class RecipeItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(
-        left: 7.0,
-        right: 7.0,
+        left: 10.0,
+        right: 10.0,
       ),
       child: Container(
         child: InkWell(
@@ -39,33 +39,29 @@ class RecipeItem extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15.0),
             ),
-            elevation: 2.0,
+            elevation: 5.0,
             child: Column(
               children: [
                 ClipRRect(
                   borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(10.0),
-                    topRight: Radius.circular(10.0),
+                    topLeft: Radius.circular(5.0),
+                    topRight: Radius.circular(5.0),
                   ),
                   child: Image.network(
                     imagePath,
-                    height: 150.0,
-                    width: 180.0,
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.all(10.0),
-                  width: 180.0,
+                  padding: EdgeInsets.all(8.0),
+                  width: 100.0,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        category,
-                        style: kTinyTitleTextStyle,
-                      ),
                       SizedBox(
-                        height: 10.0,
+                        height: 15.0,
                       ),
                       Text(
                         title,
@@ -74,7 +70,7 @@ class RecipeItem extends StatelessWidget {
                         style: kNormalTitleTextStyle,
                       ),
                       SizedBox(
-                        height: 10.0,
+                        height: 8.0,
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -83,11 +79,11 @@ class RecipeItem extends StatelessWidget {
                             children: [
                               Icon(
                                 Icons.access_time,
-                                size: 15.0,
+                                size: 10.0,
                                 color: Colors.black54,
                               ),
                               SizedBox(
-                                width: 5.0,
+                                width: 2.0,
                               ),
                               Text(
                                 '$duration min',

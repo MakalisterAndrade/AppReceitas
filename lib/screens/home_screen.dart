@@ -88,7 +88,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 30.0,
+                    height: 25.0,
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 10.0),
@@ -99,9 +99,9 @@ class HomeScreen extends StatelessWidget {
                   ),
                   Container(
                     margin: const EdgeInsets.only(
-                      top: 25.0,
+                      top: 20.0,
                     ),
-                    height: 260.0,
+                    height: 200.0,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       ///////////////////////////////////////// FOR TESTING/////////////////////////////////////////////////////////////////////
