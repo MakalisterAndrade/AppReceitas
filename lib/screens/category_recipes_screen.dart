@@ -21,13 +21,13 @@ class CategoryRecipesScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        elevation: 4.0,
+        elevation: 3.0,
         automaticallyImplyLeading: false, // Doesn't show the leading icon
         title: Row(
           children: [
             CustomBackButton(),
             SizedBox(
-              width: 10.0,
+              width: 15.0,
             ),
             Text(
               _categoryTitle!,
