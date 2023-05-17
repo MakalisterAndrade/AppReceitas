@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:app_receitas/utilities/launch.dart';
 import '../utilities/dummy_data.dart';
 import '../utilities/constants.dart';
 import '../widgets/custom_back_button.dart';
